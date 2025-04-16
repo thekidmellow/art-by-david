@@ -2,10 +2,11 @@
 
 body {
     font-family: 'Montserrant', sans-serif;
-    background-color: #121212;
+    background-color: #1a1a1a;
     color: #fff;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /* Nav/Header */
@@ -69,7 +70,62 @@ h1 {
 }
 
 h2 {
-    color: #ff7a00;
     text-align: center;
     margin-top: 40px;
+}
+
+/* SILLS */
+
+.skills {
+background-color: #1a1a1a;
+padding: 40px 20px;
+}
+
+.skills h2 {
+    color: #ff7a00;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills p {
+font-size: 14px;
+margin-bottom: 30px;
+}
+
+.skills img {
+width: 100px;
+margin: 0 20px;    
+}
+
+/* ACCOMPLISHMENTS */
+
+.accomplishments {
+    padding: 40px 20px;
+}
+
+.accomplishments h2 {
+    color: #ff7a00;
+    font-size: 24;
+    margin-bottom: 10px;
+}
+
+.accomplishments p {
+    font-size: 14;
+    margin-bottom: 30px;
+}
+
+.accomplishments table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.accomplishments th,
+.accomplishments td {
+    padding: 10px 80px;
+    text-align: left;
+}
+
+.accomplishments th {
+    border-bottom: 1px solid #ff7a00;
 }
