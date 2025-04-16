@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Header section */
+/* Nav/Header */
 
 header {
     text-align: center;
@@ -19,12 +19,10 @@ header img.logo {
     max-width: 150px;
 }
 
-/* Nav bar */
-
 nav {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     padding-bottom: 40px;
 }
 
@@ -33,9 +31,10 @@ nav a {
     color: #ff7a00;
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
-/* Profile */
+/* ABOUT */
 
 .profile {
     text-align: center;
@@ -47,6 +46,19 @@ nav a {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.profile h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.profile p {
+    max-width: 500px;
+    margin: 0 auto 40px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbb;
 }
 
 /* Headings */
