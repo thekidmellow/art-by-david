@@ -23,7 +23,7 @@ header img.logo {
 nav {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 40px;
 }
 
@@ -168,6 +168,20 @@ clients img {
     filter: grayscale(0%);
     opacity: 1;
     transform: scale(1.05);
+}
+
+/* QUOTE */
+
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    padding: 40px 20px 0;
+}
+
+.quote br + * {
+    color: #FFB000;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 
