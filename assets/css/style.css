@@ -11,3 +11,21 @@ header {
     padding: 40px 0;
 }
 
+header img.logo {
+    max-width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff7a00;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
