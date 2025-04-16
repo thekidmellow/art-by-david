@@ -129,3 +129,45 @@ margin: 0 20px;
 .accomplishments th {
     border-bottom: 1px solid #ff7a00;
 }
+
+/* CLIENTS */
+
+.clients {
+    padding: 40px 20px;
+}
+
+.clients h2 {
+    color: #ff7a00;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.clients p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.clients div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+clients img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.clients img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+
