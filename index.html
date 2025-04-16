@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="David Ujo is a creative visual strategist and graphic designer with over 9 years of experience in branding, design, and visual identity.">
     <title>artbydavid</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="../art-by-david/assets/css/style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon_io/favicon-32x32.png">
@@ -29,19 +30,19 @@
     </header>
 
     <nav>
-        <a href="index.html">HOME</a>
-        <a href="index.html">ABOUT</a>
-        <a href="index.html">SKILLS</a>
-        <a href="index.html">ACCOMPLISHMENTS</a>
-        <a href="index.html">CLIENTS</a>
-        <a href="gallery.html">GALLERY</a>
-        <a href="index.html">CONTACT</a>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#accomplishments">ACCOMPLISHMENTS</a>
+        <a href="#clients">CLIENTS</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#contact">CONTACT</a>
     </nav>
 
     <!-- ABOUT -->
 
 
-    <div class="profile">
+    <div id="about" class="profile">
         <img src="/assets/images/David photo png.png" alt="David Ujo">
         <h1>David Ujo</h1>
         <h2>Creative Visual Strategist</h2>
@@ -51,7 +52,7 @@
 
     <!-- SKILLS -->
 
-    <section class="skills">
+    <section id="skills" class="skills">
         <h2>SKILLS</h2>
         <p>I bring ideas to life using the industry's leading design tools. Here's what's in my creative toolkit:</p>
         <img src="/assets/images/PS logo.png" alt="Photoshop">
@@ -61,7 +62,7 @@
 
     <!-- ACCOMPLISHMENTS -->
 
-    <section class="accomplishments">
+    <section id="accomplishments" class="accomplishments">
         <h2>ACCOMPLISHMENTS</h2>
         <p>My design journey across leading brands and creative studios. Here's
             where I've made an impact.</p>
@@ -96,9 +97,9 @@
 
     <!-- CLIENTS -->
 
-    <secton class="clients">
+    <section id="clients" class="clients">
         <h2>CLIENTS</h2>
-        <p>From startups to established name - these are the brands I#ve brought to life through design:</p>
+        <p>From startups to established name - these are the brands I've brought to life through design:</p>
         <div>
             <img src="/assets/images/mass appeal logo copy.png" alt="Mass Appeal">
             <img src="/assets/images/revolt logo copy.png" alt="Revolt">
@@ -110,24 +111,25 @@
             <img src="/assets/images/medianet logo copy.png" alt="Medianet">
             <img src="/assets/images/smarthiphop logo copy.png" alt="Smart Hiphop">
         </div>
-    </secton>
+    </section>
 
     <!-- QUOTE -->
 
-    <div class="quote">
+    <div id="gallery" class="quote">
         "Simplicity is the ultimate sophistication"
         <br><span>- Leonardo da Vinci</span>
     </div>
 
     <!-- CONTACT -->
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <h2>CONTACT</h2>
         <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="E-Mail">
-            <input type="text" placeholder="Number">
-            <textarea rows="4" placeholder="Your message here!"></textarea>
+            <input type="text" name="name" placeholder="Name" aria-label="name">
+            <input type="email" name="email" placeholder="E-Mail" aria-label="email">
+            <input type="text" name="number" placeholder="Number" aria-label="number">
+            <textarea name="message" rows="4" placeholder="Your message here!" aria-label="message"></textarea>
+
             <button type="submit">SEND</button>
         </form>
     </section>
@@ -145,7 +147,7 @@
             <img src="/assets/images/icons8-facebook-logo-100.png" alt="Facebook icon">
         </a>
 
-        <a href="https://www.behance.net/" target="_blank" rel="noopener"
+        <a href="https://www.behance.net/artbydavidujo" target="_blank" rel="noopener"
             aria-label="Visit our Behance portfolio (opens in a new tab)">
             <img src="/assets/images/icons8-behance-100.png" alt="Behance icon">
         </a>
