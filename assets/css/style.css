@@ -40,6 +40,7 @@ nav a {
 .profile {
     text-align: center;
     padding: 20px;
+    margin: 100px;
 }
 
 .profile img {
@@ -79,6 +80,7 @@ h2 {
 .skills {
 background-color: #1a1a1a;
 padding: 40px 20px;
+margin: 100px;
 }
 
 .skills h2 {
@@ -101,6 +103,7 @@ margin: 0 20px;
 
 .accomplishments {
     padding: 40px 20px;
+    margin: 100px;
 }
 
 .accomplishments h2 {
@@ -134,6 +137,7 @@ margin: 0 20px;
 
 .clients {
     padding: 40px 20px;
+    margin: 100px;
 }
 
 .clients h2 {
@@ -176,10 +180,11 @@ clients img {
     font-size: 16px;
     font-style: italic;
     padding: 40px 20px 0;
+    margin: 100px;
 }
 
 .quote br + * {
-    color: #FFB000;
+    color: #ff7a00;
     margin-top: 10px;
     display: inline-block;
 }
@@ -188,6 +193,7 @@ clients img {
 
 .contact {
     padding: 40px 20px;
+    margin: 100px;
 }
 
 .contact h2 {
@@ -235,6 +241,28 @@ button:hover {
     color: #000;
     border-color: #FF7C00;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 0;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+footer img:hover {
+    filter: grayscale(0%);
+}
+
+
 
 
 
