@@ -275,17 +275,18 @@ html {
   
   .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 0px;
-    padding: 20px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
     max-width: 1600px;
     margin: 0 auto 80px;
   }
   
   .gallery-grid img {
     width: 100%;
-    height: auto;
-    border-radius: 0px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 0;
     transition: transform 0.3s;
   }
   
@@ -303,10 +304,7 @@ html {
       padding-bottom: 20px;
     }
   
-    .profile {
-      margin: 40px 20px;
-    }
-  
+    .profile,
     .skills,
     .accomplishments,
     .clients,
