@@ -289,12 +289,12 @@ h2 {
     width: 100%;
     height: auto;
     border-radius: px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s;
 }
 
 .gallery-grid img:hover {
     transform: scale(1.03);
-    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4)
+    box-shadow: 0px;
 }
 
 
