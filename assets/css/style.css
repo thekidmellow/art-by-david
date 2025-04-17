@@ -116,7 +116,7 @@ nav a:hover {
 
 .accomplishments {
   padding: 40px 20px;
-  margin: 100px;
+  margin: 100px auto;
   max-width: 1000px;
 }
 
