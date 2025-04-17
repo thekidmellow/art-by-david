@@ -132,13 +132,23 @@
             <h2>CONTACT</h2>
             <form action="https://formsubmit.co/el/fabavi" method="POST">
                 <label for="name" class="sr-only">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your Name" aria-label="name" required>
-                <input type="email" name="email" placeholder="Your EMail" aria-label="email" required>
-                <input type="text" name="number" placeholder="Number" aria-label="number">
-                <textarea name="message" rows="4" placeholder="Your Message" aria-label="message" required></textarea>
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <input type="text" name="number" placeholder="Number">
+
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+
+                
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New message from portfolio!">
+                <input type="hidden" name="_next" value="https://artbydavid.com/thank-you.html">
+
                 <button type="submit">SEND</button>
             </form>
         </section>
+
 
     </main>
 

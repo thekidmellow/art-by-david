@@ -118,6 +118,7 @@ nav a:hover {
   padding: 40px 20px;
   margin: 100px auto;
   max-width: 1000px;
+  text-align: left;
 }
 
 .accomplishments h2 {
@@ -129,6 +130,7 @@ nav a:hover {
 .accomplishments p {
   font-size: 14px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .accomplishments table {
