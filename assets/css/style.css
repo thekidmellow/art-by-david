@@ -111,6 +111,7 @@ nav a {
 .accomplishments {
   padding: 40px 20px;
   margin: 100px;
+  max-width: 1000px;
 }
 
 .accomplishments h2 {
@@ -132,7 +133,7 @@ nav a {
 
 .accomplishments th,
 .accomplishments td {
-  padding: 10px 80px;
+  padding: 10px 20px !important;
   text-align: left;
 }
 
