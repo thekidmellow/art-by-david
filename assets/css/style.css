@@ -1,12 +1,11 @@
 /* Global styles */
 
 html {
-    scroll-behavior: smooth;
-  }
-  
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: "Montserrant", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #1a1a1a;
   color: #fff;
   margin: 0;
@@ -272,143 +271,113 @@ footer img:hover {
 /* GALLERY */
 
 h2 {
-    font-size: 24px;
-    margin: 40px 0 20px;
-    color: #ff9900;
-    font-weight: 800;
-  }
+  font-size: 24px;
+  margin: 40px 0 20px;
+  color: #ff9900;
+  font-weight: 800;
+}
 
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 0px;
-    padding: 20px 40px;
-    max-width: 1600px;
-    margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0px;
+  padding: 20px 40px;
+  max-width: 1600px;
+  margin: 0 auto 80px;
 }
 
 .gallery-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: px;
-    transition: transform 0.3s;
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  transition: transform 0.3s;
 }
 
 .gallery-grid img:hover {
-    transform: scale(1.03);
-    box-shadow: 0px;
+  transform: scale(1.03);
+  box-shadow: 0px;
 }
 
 
 
 
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
 
+  .profile {
+    margin: 40px 20px;
+  }
 
-
-
-
-/* Medium Screens (Tablets & small laptops) */
-
-@media (max-width: 1024px) {
-  .profile,
   .skills,
   .accomplishments,
   .clients,
   .contact,
   .quote {
-    margin: 60px 20px;
-    padding: 30px 10px;
+    margin: 40px 20px;
+    padding: 20px;
   }
 
-  .accomplishments table th,
-  .accomplishments table td {
-    padding: 10px 40px;
+  .accomplishments table {
+    font-size: 12px;
   }
 
-  footer {
-    gap: 80px;
-  }
-}
-
-/* Small Screens (Phones) */
-
-@media (max-width: 768px) {
-  nav {
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 20px 10px;
-  }
-
-  header img.logo {
-    max-width: 100px;
-  }
-
-  .profile img {
-    width: 150px;
-    height: 150px;
-  }
-
-  h1 {
-    font-size: 1.2rem;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .skills img {
-    width: 60px;
-    margin: 10px;
+  .accomplishments th,
+  .accomplishments td {
+    padding: 8px 20px;
   }
 
   .clients div {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
 
-  .accomplishments table th,
-  .accomplishments table td {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px 20px;
   }
 
-  form {
-    width: 90%;
-  }
-
   footer {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 60px 0;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 40px 0;
   }
 
-  footer img {
-    width: 20px;
-    height: 20px;
+  form {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+
+  h1,
+  h2 {
+    font-size: 20px;
   }
 }
 
-/* Extra Small Screens (Very narrow phones) */
-
+/* Extra small screens (very small phones) */
 @media (max-width: 480px) {
-  .profile p,
-  .skills p,
-  .clients p,
-  .accomplishments p,
-  .quote,
-  .contact p {
-    font-size: 12px;
+  .clients div {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
   }
 
   nav a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  button {
-    font-size: 12px;
-  }
-
-  .clients div {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  header img.logo {
+    max-width: 120px;
   }
 }
