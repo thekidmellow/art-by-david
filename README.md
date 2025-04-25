@@ -4,6 +4,12 @@ Welcome to **Art by David**, the personal design portfolio website of **David Uj
 
 ![image](assets/images/README%20screenshots/Website%20on%20all%20devices.jpg)
 
+**Site Wireframes**
+
+![image](../art-by-david/assets/images/README%20screenshots/artbydavid%20wireframe%20browser%20view%20cropped_page-0001.jpg)
+
+![image](../art-by-david/assets/images/README%20screenshots/artbydavid%20wireframe%20gallery%20view%20cropped_page-0001.jpg)
+
 ## 💡 Project Overview
 
 **Art by David** is a clean, visually striking website designed to highlight the career, skills, and accomplishments of a creative professional. The goal of this project is to create a strong online presence that acts as both a portfolio and a resume – attracting brands, agencies, and collaborators who value storytelling through design.
