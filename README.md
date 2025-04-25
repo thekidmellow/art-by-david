@@ -6,9 +6,9 @@ Welcome to **Art by David**, the personal design portfolio website of **David Uj
 
 **Site Wireframes**
 
-![image](../art-by-david/assets/images/README%20screenshots/artbydavid%20wireframe%20browser%20view%20cropped_page-0001.jpg)
+![image](assets/images/README%20screenshots/artbydavid%20wireframe%20browser%20view%20cropped_page-0001.jpg)
 
-![image](../art-by-david/assets/images/README%20screenshots/artbydavid%20wireframe%20gallery%20view%20cropped_page-0001.jpg)
+![image](assets/images/README%20screenshots/artbydavid%20wireframe%20gallery%20view%20cropped_page-0001.jpg)
 
 ## 💡 Project Overview
 
